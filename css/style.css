@@ -39,9 +39,7 @@ body {
   margin:0 auto
 }
 
-
 /*Headings*/
-
 .heading {
   text-align:center;
   margin-bottom:40px;
@@ -81,7 +79,7 @@ body {
 }
 
 /* Extra Small Devices, Phones */
-@media only screen and (min-width : 480px) {
+@media only screen and (min-width : 1024px) {
 .heading,.heading-light {
   padding:0 1em
 }
@@ -125,7 +123,7 @@ h1,.h1,h2,.h2 {
   line-height:.7;
   text-transform:capitalize;
   letter-spacing:.08em;
-  font-size:4em;
+  font-size:3.5em;
   font-weight:400;
   text-align:center
 }
@@ -138,7 +136,6 @@ h1,.h1,h2,.h2 {
   font-size:2em
 }
 
-/* Small devices (tablets, 768px and up) */
 @media only screen and (min-width : 768px) {
 h1,.h1,h2,.h2 {
   font-size:8em
@@ -149,6 +146,12 @@ h1,.h1,h2,.h2 {
 }
 }
 
+@media only screen and (min-width : 768px) and (max-width : 1024px) {
+h1,.h1,h2,.h2 {
+  font-size:6em
+}
+}
+
 p {
   font-family:"Lato",Helvetica,Arial,sans-serif;
   font-size:16px;
@@ -156,7 +159,6 @@ p {
 }
 
 /*Color Sections*/
-
 .color0 {
   background:none repeat scroll 0 0 #404d5b
 }
@@ -221,7 +223,6 @@ p {
 }
 
 /*Inside*/
-
 .sbj11 {
   background:none repeat scroll 0 0 rgba(34,167,240,0.7);
   border:4px double #fff;
@@ -372,6 +373,7 @@ p {
   padding:4em 1em
 }
 
+
 .rbi92 {
   background:none repeat scroll 0 0 rgba(0,0,0,0.3);
   height:120%;
@@ -402,10 +404,15 @@ p {
   z-index:-1
 }
 
-/* Custom, iPhone Retina */
-@media only screen and (min-width : 768px) {
+@media only screen and (min-width : 1024px) {
 .sbj11,.dbaoc21,.sbacf31,.swoh41,.dbeoo51,.wsg61,.ydhtbar71,.goyl81,.rbi91,.ftfp101 {
   padding:4em 0
+}
+}
+
+@media only screen and (min-width : 768px) and (max-width: 1024px) {
+.sbj11,.dbaoc21,.sbacf31,.swoh41,.dbeoo51,.wsg61,.ydhtbar71,.goyl81,.rbi91,.ftfp101 {
+  padding:2em 0
 }
 }
 
@@ -415,8 +422,7 @@ p {
   text-transform:capitalize
 }
 
-/*body.disabled-onepage-scroll .onepage-wrapper section {
+body.disabled-onepage-scroll .onepage-wrapper section {
   min-height:100%;
   height:auto
-}*/
-
+}
